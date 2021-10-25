@@ -1,3 +1,14 @@
+<?php
+$name = $_POST['name'];
+$eventdate = $_POST['eventdate'];
+$starttime = $_POST['starttime'];
+$duration = $_POST['duration'];
+$buildingtype = $_POST['buildingtype'];
+$phonenumber = $_POST['phonenumber'];
+$service = $_POST['services']
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -57,15 +68,16 @@
         </tr>
         <tr>
           <th>100000250</th>
-          <th>Fachrul_1202194233</th>
-          <th>24-10-2021 10:00:00</th>
-          <th>24-10-2021 20:00:00</th>
-          <th>Nusantara Hall</th>
-          <th>085656423189</th>
-          <th>Catering</th>
-          <th>$20.000</th> 
+          <th><?php echo $name ?></th>
+          <th><?php echo $eventdate ?></th>
+          <th><?php echo $starttime ?></th>
+          <th><?php echo $duration ?></th>
+          <th><?php echo $buildingtype ?></th>
+          <th><?php echo $phonenumber ?></th>
+          <th><?php echo $service ?> </th> 
         </tr>
       </table>
+
 
         <footer style="text-align: center; margin-top: 250px;">Create By : Fachrul_1202194233</footer>
   </body>

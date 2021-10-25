@@ -54,7 +54,7 @@
       </div>
       <div class="col-4">
           <form>
-              <div class="form-group">
+              <div class="form-group" method="POST" action="Mybooking.php">
                   <label for="name">Name</label>
                   <input type="text" class="form-control" placeholder="fachrul_1202194233" readonly id="name">
               </div>
@@ -96,15 +96,15 @@
               <div class="form-group">
                   <label for="services">Add Service(s)</label>
                   <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="catering">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="catering" value="catering">
                       <label class="form-check-label" for="catering">Catering ($700)</label>
                   </div>
                   <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="decoration">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="decoration" value="decoration">
                       <label class="form-check-label" for="decoration">Decoration ($450)</label>
                   </div>
                   <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="soundsystem">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="soundsystem"  value="soundsystem">
                       <label class="form-check-label" for="soundsystem">Sound System ($250)</label>
                   </div>
               </div>
