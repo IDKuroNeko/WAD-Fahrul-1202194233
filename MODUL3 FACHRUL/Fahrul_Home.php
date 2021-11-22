@@ -44,7 +44,7 @@
                      <div class="card-body">
         <h5 class="card-title" style="font-weight:bold; font-family: Times New Roman, Times, serif; font-size: 25px"><?php echo $b['judul_buku']?></h5>
         <p class="card-text" style="font-family: Times New Roman, Times, serif; font-size: 15px"><?php echo $b['deskripsi']?></p>
-        <a href="..."class="btn btn-primary">Detail Buku</a>
+        <a href="Fahrul_Detail.php?id=<?php echo $b['id_buku']?>"class="btn btn-primary">Detail Buku</a>
       </div>
     </div>
   </div>

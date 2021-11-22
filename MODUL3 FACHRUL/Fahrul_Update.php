@@ -1,9 +1,9 @@
 <?php
 include 'Fahrul_Koneksi.php';
-if (isset($_POST['create']))
+if (isset($_POST['save']))
 {
+    $idbk = $_POST['id'];
     $judulbuku = $_POST['judul'];
-    $penulis = "Fachrulroji_1202194233";
     $tahun = $_POST['tahun'];
     $deskripsi = $_POST['deskripsi'];
     $tag = implode(",",$_POST['tag']);
@@ -12,17 +12,15 @@ if (isset($_POST['create']))
     $pathinfo = pathinfo($gmb, PATHINFO_EXTENSION);
     move_uploaded_file($_FILES['gambar']['tmp_name'],'gmbr/'.$_FILES['gambar']['name']);
 
-    $query = "INSERT INTO buku_table(judul_buku, penulis_buku, tahun_terbit, deskripsi, gambar, tag, bahasa) VALUES ('$judulbuku', '$penulis', '$tahun', '$deskripsi', '$gmb','$tag', '$bahasa')";
+    $query = "UPDATE buku_table SET judul_buku = '$judulbuku', tahun_terbit = '$tahun', deskripsi = '$deskripsi', tag = '$tag', bahasa = '$bahasa' WHERE id_buku = '$idbk'";
     $query_run = mysqli_query($koneksi, $query);
 
     if($query_run)
     {
-        echo "<script> alert('Data Saved');
+        echo "<script> alert('Data Updated');
         document.location.href = 'Fahrul_Home.php'; </script>";
     }else{
         echo "Gagal";
     }
 }
     ?>
-
-

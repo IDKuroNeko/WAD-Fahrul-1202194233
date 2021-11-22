@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2021 at 04:40 PM
+-- Generation Time: Nov 22, 2021 at 08:13 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -43,8 +43,8 @@ CREATE TABLE `buku_table` (
 --
 
 INSERT INTO `buku_table` (`id_buku`, `judul_buku`, `penulis_buku`, `tahun_terbit`, `deskripsi`, `gambar`, `tag`, `bahasa`) VALUES
-(6, 'Pemrograman', 'Fachrulroji_1202194233', 2019, 'Berisi tentang pemrograman dasar', '613630_3cf8c791-d807-4c68-8dd6-bf98c662764d_654_1008.jpg', 'Pemrograman', 'Indonesia'),
-(7, 'Kalkulus', 'Fachrulroji_1202194233', 2018, 'Buku berisi tentang materi aljabar', 'WhatsApp_Image_2019_08_16_at_084749_2_.jpeg', 'Kalkulus', 'Indonesia');
+(8, 'Pemrograman Dasar Klasemen', 'Fachrulroji_1202194233', 2019, 'Berisi Tentang pemrograman dasar\r\n', '613630_3cf8c791-d807-4c68-8dd6-bf98c662764d_654_1008.jpg', 'Pemrograman', 'Indonesia'),
+(10, 'Kalkulus Dasar Sekali', 'Fachrulroji_1202194233', 2017, 'Berisi tentang materi kalkulus dasar', '', 'Kalkulus', 'Indonesia');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +64,7 @@ ALTER TABLE `buku_table`
 -- AUTO_INCREMENT for table `buku_table`
 --
 ALTER TABLE `buku_table`
-  MODIFY `id_buku` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_buku` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
