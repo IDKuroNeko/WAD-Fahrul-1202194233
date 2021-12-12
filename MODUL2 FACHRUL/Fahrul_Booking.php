@@ -54,21 +54,21 @@
       </div>
       <div class="col-4">
           <form>
-              <div class="form-group" method="POST" action="Mybooking.php">
+              <div class="form-group" method="POST" action="Fahrul_Booking.php">
                   <label for="name">Name</label>
-                  <input type="text" class="form-control" placeholder="fachrul_1202194233" readonly id="name">
+                  <input type="text" class="form-control" placeholder="fachrul_1202194233" readonly id="name" name="name">
               </div>
               <div class="form-group">
                   <label for="eventdate">Event Date</label>
-                  <input type="date" class="form-control" id="eventdate">
+                  <input type="date" class="form-control" id="eventdate" name="eventdate">
               </div>
               <div class="form-group">
                   <label for="starttime">Start Time</label>
-                  <input type="time" class="form-control" id="starttime">
+                  <input type="time" class="form-control" id="starttime" name="starttime">
               </div>
               <div class="form-group">
                   <label for="duration">Duration (Hours)</label>
-                  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelect">
+                  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelect" name="duration">
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -83,7 +83,7 @@
               </div>
               <div class="form-group">
                   <label for="buildingtype">Building Type</label>
-                  <select class="form-control" id="buildingtype">
+                  <select class="form-control" id="buildingtype" name="buildingtype">
                       <option>Nusantara Hall</option>
                       <option>Garuda Hall</option>
                       <option>Gedung Serba Guna</option>
@@ -91,20 +91,20 @@
               </div>
               <div class="form-group">
                   <label for="phonenumber">Nomor HP</label>
-                  <input type="tel" class="form-control" id="phonenumber">
+                  <input type="tel" class="form-control" id="phonenumber" name="phonenumber">
               </div>
               <div class="form-group">
                   <label for="services">Add Service(s)</label>
                   <div class="form-group form-check">
-                      <input type="checkbox" name="services[]" class="form-check-input" id="catering" value="catering">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="catering" value="catering" name="service[]">
                       <label class="form-check-label" for="catering">Catering ($700)</label>
                   </div>
                   <div class="form-group form-check">
-                      <input type="checkbox" name="services[]" class="form-check-input" id="decoration" value="decoration">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="decoration" value="decoration" name="service[]">
                       <label class="form-check-label" for="decoration">Decoration ($450)</label>
                   </div>
                   <div class="form-group form-check">
-                      <input type="checkbox" name="services[]" class="form-check-input" id="soundsystem"  value="soundsystem">
+                      <input type="checkbox" name="services[]" class="form-check-input" id="soundsystem"  value="soundsystem" name="service[]">
                       <label class="form-check-label" for="soundsystem">Sound System ($250)</label>
                   </div>
               </div>

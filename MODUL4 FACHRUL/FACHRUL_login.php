@@ -95,9 +95,9 @@
           $select = mysqli_query($koneksi, "SELECT * FROM user WHERE email = '$email'");
           if(mysqli_num_rows($select) == 1){
           $value = mysqli_fetch_assoc($select);
-          if(password_verify($pwd, $values["password"])){
-              $SESSION['id'] = $value["id"];
-              $SESSION['name'] = $value["nama"];
+          if(password_verify($pwd, $value["password"])){
+              $_SESSION['id'] = $value["id"];
+              $_SESSION['name'] = $value["nama"];
               $_SESSION['email'] = $value["email"];
               $_SESSION['hp'] = $value["no_hp"];
 
