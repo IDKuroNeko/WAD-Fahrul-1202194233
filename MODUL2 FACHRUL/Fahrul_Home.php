@@ -1,113 +1,113 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ESD Venue Reservation</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <style type="text/css">
+            body {background-color: #F3F0D7;}
+        </style>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-    <style type="text/css">
-      body{
-        background-color: #EDF6E5;
-      }
-      a:hover{
-        background-color: #D5D5D5;
-      }
-      </style>
-
-    <title>ESD Venue</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #B5EAEA;">
-  <div class="navbar mx-auto">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Home.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Booking.php">Booking</a>
-        </li>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-    <h3 style="text-align : center; weight : bold">WELCOME TO ESD VENUE RESERVATION</h3>
-
-    <div class="content" style="background-color: #B5EAEA;">
-      <div class="cari" style="text-align: center; color: black;">
-        <p>Find Your Best Deal For Your Event, Here!</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img src="https://weddingmarket.com/storage/images/artikelidea/d43df113c6c34c7ed6d41c8f36521052cf262ff9.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nusantara Hall</h5>
-            <p class="card-text">$2000 / Hour <br> 5000 Capacity</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item" style="font-weight: bold; color: green;">Free Parking</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Full AC</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Cleaning Service</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Covid-19 Health Protocol</li>
-          </ul>
-          <div class="card-body text-center">
-            <a href="Booking.php" class="btn btn-primary">Book Now</a>
-          </div>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #CEE5D0;">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="Fahrul_Home.php">Home</a>
+                    <a class="nav-link" href="Fahrul_Booking.php">Booking</a>
+                </div>
+            </div>
+        </nav>
+        <h4 align="center">WELCOME TO ESD VENUE RESERVATION</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3" align="center" style="color:black;background-color:#CEE5D0">Find your best deal for your event, here!</div>
+            </div>
+            <div class="row">
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img src="https://thebrideview.files.wordpress.com/2015/10/somerset-wedding-venue-almonry-barn-rustic-wedding-venue-coco-wedding-venues-kerry-bartlett-photography-002.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Nusantara Hall</h5>
+                        <p class="card-text">
+                            $2000/hour
+                            <br>5000 capacity
+                        </p>
+                    </div>
+                    <center>
+                        <div class="card-footer" style="color:green">
+                            Free Parking
+                        </div>
+                        <div class="card-footer" style="color:green">
+                            Full AC
+                        </div>
+                        <div class="card-footer" style="color:green">
+                            Cleaning Service
+                        </div>
+                        <div class="card-footer" style="color:green">
+                            COVID-19 Health Protocol
+                        </div>
+                        <div class="card-footer">
+                            <a href="Fahrul_Booking.php" class="btn btn-primary">Book now</a>
+                        </div>
+                    </center>
+                </div>
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKyb5bXId_xENIMApzXa1SXPe1RsEG63CddU9AxFA6pzebmzAsXwLAfPdl9eYTrgou48&usqp=CAU" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Garuda Hall</h5>
+                        <p class="card-text">
+                            $1000/hour
+                            <br>2000 capacity
+                        </p>
+                    </div>
+                    <center>
+                        <div class="card-footer" style="color:green">
+                            Free Parking
+                        </div>
+                        <div class="card-footer" style="color:green">
+                            Full AC
+                        </div>
+                        <div class="card-footer" style="color:red">
+                            No Cleaning Service
+                        </div>
+                        <div class="card-footer" style="color:green">
+                            COVID-19 Health Protocol
+                        </div>
+                        <div class="card-footer">
+                            <a href="Fahrul_Booking.php" class="btn btn-primary">Book now</a>
+                        </div>
+                    </center>
+                </div>
+                <div class="card col-sm-4" style="width: 18rem;">
+                    <img src="https://bridebook.imgix.net/weddingsuppliers/venue/eeZgj1o4XN/03-PentneyAbbey-ClaireGary-James-Kilcoin.jpg?auto=compress%2Cformat&dpr=1&mark64=aHR0cHM6Ly9icmlkZWJvb2staW1hZ2VzLmltZ2l4Lm5ldC9hc3NldHMvYy5wbmc_dz00MA&markw=50&markalpha=30&markalign=left&crop=entropy&fit=crop&w=770&h=400&marky=335&markx=10" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Gedung Serba Guna</h5>
+                        <p class="card-text">
+                            $500/hour
+                            <br>500 capacity
+                        </p>
+                    </div>
+                    <center>
+                        <div class="card-footer" style="color:red">
+                            No Free Parking
+                        </div>
+                        <div class="card-footer" style="color:red">
+                            No Full AC
+                        </div>
+                        <div class="card-footer" style="color:red">
+                            No Cleaning Service
+                        </div>
+                        <div class="card-footer" style="color:green">
+                        COVID-19 Health Protocol
+                        </div>
+                        <div class="card-footer">
+                            <a href="Fahrul_Booking.php" class="btn btn-primary">Book now</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img src="https://obs.line-scdn.net/0hZCrH5gO3BWxPMS4YEJh6O3VnBgN8XRZvKwdUch9fW1g3AUA-cAAfWWM1D1hiVUIyIQBNAmIzHl0yBBU8ewMe/w644" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Garuda Hall</h5>
-            <p class="card-text">$1000 / Hour <br> 2000 Capacity</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item" style="font-weight: bold; color: green;">Free Parking</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Full AC</li>
-            <li class="list-group-item" style="font-weight: bold; color: red;">No Cleaning Service</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Covid-19 Health Protocol</li>
-          </ul>
-          <div class="card-body text-center">
-            <a href="Booking.php" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img src="https://i1.wp.com/blog.venuerific.com/wp-content/uploads/2016/04/grand-hyatt-jakarta-penthouse-corporate-function-event-venue-indonesia1.jpg?resize=1160%2C771&ssl=1" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Gedung Serba Guna</h5>
-            <p class="card-text">$500 / Hour <br> 500 Capacity</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item" style="font-weight: bold; color: red;">No Free Parking</li>
-            <li class="list-group-item" style="font-weight: bold; color: red;">No Full AC</li>
-            <li class="list-group-item" style="font-weight: bold; color: red;">No Cleaning Service</li>
-            <li class="list-group-item" style="font-weight: bold; color: green;">Covid-19 Health Protocol</li>
-          </ul>
-          <div class="card-body text-center">
-            <a href="Booking.php" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-        <footer style="text-align: center; margin-top: 250px;">Create By : Fachrul_1202194233</footer>
-  </body>
+        <br><br><br>
+        <footer><center>Created by: Fachrul_1202194233</center></footer>  
+    </body>
 </html>
