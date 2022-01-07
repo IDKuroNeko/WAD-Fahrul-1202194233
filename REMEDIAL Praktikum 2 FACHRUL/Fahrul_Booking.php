@@ -21,12 +21,12 @@
             <div class="card" style="background-color: #F3F0D7">
                 <div class="container" style="background-color: #F3F0D7;">
                     <div class="row">
-                        <div class="col-12 mb-3" align="center" style="color:black;background-color:#CEE5D0">Reserve your venue now!</div>
+                        <div class="col-12 mb-3" align="center" style="color:black;background-color:#CEE5D0">Reserve your room now!</div>
                     </div>
                 </div>
                 <div class="card-body row justify-content-around" style="background-color: #F3F0D7;">
                     <div class="col-4" style="padding-top: 32px">
-                        <img src="https://thebrideview.files.wordpress.com/2015/10/somerset-wedding-venue-almonry-barn-rustic-wedding-venue-coco-wedding-venues-kerry-bartlett-photography-002.jpg" class="card-img-top" style="margin-left: 5px; width: 600px; height: 400px">
+                        <img src="https://www.eastparchotel.com/wp-content/uploads/2017/09/1-3.jpg" class="card-img-top" style="margin-left: 5px; width: 600px; height: 400px">
                     </div>
                     <div class="col-4">
                         <form action="Fahrul_Mybooking.php" method="POST">
@@ -43,7 +43,7 @@
                                 <input type="time" class="form-control" id="starttime" name="starttime">
                             </div>
                             <div class="form-group">
-                                <label for="duration">Duration (Hours)</label>
+                                <label for="duration">Duration (Day)</label>
                                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelect" name="duration">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -59,9 +59,9 @@
                             <div class="form-group">
                                 <label for="buildingtype">Building Type</label>
                                 <select class="form-control" id="buildingtype" name="buildingtype">
-                                    <option>Nusantara Hall</option>
-                                    <option>Garuda Hall</option>
-                                    <option>Gedung Serba Guna</option>
+                                    <option>Suite Room</option>
+                                    <option>Deluxe Room</option>
+                                    <option>Standard Room</option>
                                 </select>
                             </div>
                             <div class="form-group">
@@ -72,15 +72,15 @@
                                 <label for="services">Add Service(s)</label>
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="catering" name="service[]">
-                                    <label class="form-check-label" for="catering">Catering ($700)</label>
+                                    <label class="form-check-label" for="catering">Catering ($150)</label>
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="decoration" name="service[]">
-                                    <label class="form-check-label" for="decoration">Decoration ($450)</label>
+                                    <label class="form-check-label" for="decoration">Private Wifi ($50)</label>
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="soundsystem" name="service[]">
-                                    <label class="form-check-label" for="soundsystem">Sound System ($250)</label>
+                                    <label class="form-check-label" for="soundsystem">Snack ($25)</label>
                                 </div>
                             </div>
                             <center><input class="btn btn-primary" type="submit" value="Submit"></center>
