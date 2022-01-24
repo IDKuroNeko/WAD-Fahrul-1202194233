@@ -9,7 +9,6 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Gambar</th>
-                    <th scope="col">No WA</th>
                     <th scope="col">Kategori</th>
                     <th scope="col">Metode Pesanan</th>
                     <th scope="col">Pengiriman</th>
