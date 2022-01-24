@@ -9,10 +9,10 @@
       />
       <h3>About Us :</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus interdum odio, 
-        ut semper quam gravida at. Integer iaculis vehicula massa vel ultricies.  
-        Etiam sagittis tellus ligula. Mauris rhoncus odio a semper semper. 
-        Maecenas efficitur, purus a fermentum malesuada,
+        ISILLO Digital Printing menyediakan berbagai layanan percetakan digital, seperti banner, brosur, kartu nama dan lain-lain. Kami juga memiliki desainer yang siap membantu anda dalam membuat desain, anda tidak perlu khawatir akan kualitas dari produk maupun jasa yang kami tawarkan.
+      </p>
+      <p>
+        <i>"Sekarang print digital mudah, bisa dimana aja dan kapan aja"</i> <b>- ISILLO Digital Printing -</b>
       </p>
       <br>
       <br>

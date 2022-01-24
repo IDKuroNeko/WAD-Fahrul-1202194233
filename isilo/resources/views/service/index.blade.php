@@ -32,7 +32,7 @@
         <div class="col">
             <div class="card">
                 <img
-              src="https://cdn-icons.flaticon.com/png/512/1547/premium/1547977.png?token=exp=1642953035~hmac=3443e746d2b04b5ac04c61c11abdc578"
+              src="https://cdn-icons.flaticon.com/png/512/1547/premium/1547977.png?token=exp=1642997557~hmac=00ca5670147c55babf3e344338023e67"
               class="card-img-top"
               alt="Skyscrapers" style="width: 100px;align-self: center;"""
             />
